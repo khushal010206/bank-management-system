@@ -1,77 +1,76 @@
+# 🏦 Bank Management System
 
-##Bank Management System
+A simple **Command-Line Bank Management System** built using **Python** and **JSON** for data storage. This project allows users to create bank accounts, perform transactions, and manage account information securely using PIN authentication.
 
-A simple command-line bank management system built in Python with JSON-based data persistence. This project allows users to create accounts, manage their balance through deposits, withdrawals, and transfers, and update or delete their account — all secured with PIN authentication.
+## ✨ Features
 
-##Features
+* Create Account
+* Deposit Money
+* Withdraw Money
+* Transfer Money
+* View Account Details
+* Update Account Information
+* Delete Account
+* PIN Authentication
+* Unique Account Number Generation
+* JSON-based Data Persistence
 
+## 🛠️ Technologies Used
 
--Create Account — Register a new account with name, age, email, and a 4 or 6-digit PIN
--Deposit Money — Add funds to an account (with a max limit per transaction)
--Withdraw Money — Withdraw funds with balance validation
--Transfer Money — Send money from one account to another
--Show Details — View account information after PIN verification
--Update Details — Edit name, email, or PIN
--Delete Account — Permanently remove an account
--Unique Account Number Generation — Randomly generated alphanumeric account numbers with uniqueness checks
--Persistent Storage — All data is saved locally in a JSON file
+* Language: Python 3
+* Storage: JSON
+* Concepts:
 
+  * Object-Oriented Programming (OOP)
+  * Encapsulation
+  * Exception Handling
+  * File Handling
+  * Data Persistence
 
-##Tech Stack
+## 🚀 Run the Project
 
+```bash
+git clone https://github.com/your-username/bank-management-system.git
+cd bank-management-system
+python bank.py
+```
 
--Language: Python 3
--Concepts Used: Object-Oriented Programming (OOP), class methods, encapsulation, exception handling, file I/O
--Storage: JSON
+> A `data.json` file will be created automatically on the first run.
 
+## 📁 Project Structure
 
-##How to Run
+```text
+bank-management-system/
+├── bank.py
+├── data.json
+└── README.md
+```
 
-'''
-#Clone this repository
+## 🔒 Security Features
 
+* PIN-based authentication
+* Balance validation
+* Input validation
+* Unique account generation
 
-bash - git clone https://github.com/your-username/bank-management-system.git
-   cd bank-management-system
+## 🔮 Future Improvements
 
+* PIN encryption/hashing
+* SQLite/MySQL integration
+* Transaction history
+* GUI using Tkinter
+* Web version using Flask/Django
 
-#Run the program
+## 🎯 Learning Outcomes
 
+* Python Programming
+* Object-Oriented Programming
+* File Handling
+* JSON Data Management
+* Exception Handling
+* Banking System Logic
+* Software Design Principles
 
-bash - python bank.py
+## 👨‍💻 Author
 
-
-#A data.json file will be created automatically on first run to store account data.
-'''
-
-##Project Structure
-
-- bank-management-system/
-  │
-  ├── bank.py          # Main application file
-  ├── data.json         # Auto-generated data storage (not tracked in repo)
-  └── README.md         # Project documentation
-
-##Sample Menu
-
-========== BANK MANAGEMENT SYSTEM ==========
-1. Create Account
-2. Deposit Money
-3. Withdraw Money
-4. Transfer Money
-5. Show Details
-6. Update Details
-7. Delete Account
-8. Exit
-
-##Future Improvements
-
--Hash PINs instead of storing them in plain text
--Migrate from JSON to a proper database (SQLite)
--Add transaction history logging
--Build a GUI version using Tkinter or a web interface
-
-
-##Author
-
-Khushal Kumar
+Khushal Suthar
